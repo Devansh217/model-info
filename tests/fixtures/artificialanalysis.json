@@ -1,0 +1,11 @@
+{"status": 200, "data": [
+  {"id": "aa-opus-55", "name": "Claude Opus 5.5", "slug": "claude-opus-5-5",
+   "model_creator": {"id": "c1", "name": "Anthropic", "slug": "anthropic"},
+   "evaluations": {"artificial_analysis_intelligence_index": 73.1, "mmlu_pro": 0.912, "gpqa": 0.874},
+   "pricing": {"price_1m_input_tokens": 5.0, "price_1m_output_tokens": 25.0},
+   "median_output_tokens_per_second": 61.2, "median_time_to_first_token_seconds": 1.9},
+  {"id": "aa-llama", "name": "Llama 3.1 8B Instruct", "slug": "llama-3-1-instruct-8b",
+   "model_creator": {"id": "c2", "name": "Meta", "slug": "meta"},
+   "evaluations": {"artificial_analysis_intelligence_index": 21.0},
+   "pricing": {}, "median_output_tokens_per_second": 0, "median_time_to_first_token_seconds": 0}
+]}

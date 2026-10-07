@@ -1,0 +1,20 @@
+{"data": [
+  {"id": "anthropic/claude-opus-5.5", "name": "Anthropic: Claude Opus 5.5", "created": 1788000000,
+   "hugging_face_id": null, "context_length": 1000000,
+   "architecture": {"modality": "text+image->text", "input_modalities": ["text", "image"], "output_modalities": ["text"]},
+   "pricing": {"prompt": "0.000005", "completion": "0.000025"},
+   "top_provider": {"context_length": 1000000, "max_completion_tokens": 128000},
+   "benchmarks": {"artificial_analysis": {"intelligence_index": 72.4}}},
+  {"id": "anthropic/claude-opus-5.5:batch", "name": "Anthropic: Claude Opus 5.5 (batch)", "created": 1788000000,
+   "context_length": 1000000, "architecture": {}, "pricing": {"prompt": "0.0000025", "completion": "0.0000125"}, "top_provider": {}},
+  {"id": "~anthropic/claude-opus-latest", "name": "Anthropic: Claude Opus Latest", "created": 1788000000,
+   "context_length": 1000000, "architecture": {}, "pricing": {}, "top_provider": {}},
+  {"id": "anthropic/claude-opus-5", "name": "Anthropic: Claude Opus 5", "created": 1780000000,
+   "context_length": 500000, "architecture": {"input_modalities": ["text"], "output_modalities": ["text"]},
+   "pricing": {"prompt": "0.000015", "completion": "0.000075"}, "top_provider": {"max_completion_tokens": 64000}},
+  {"id": "meta-llama/llama-3.1-8b-instruct", "name": "Meta: Llama 3.1 8B Instruct", "created": 1721692800,
+   "hugging_face_id": "meta-llama/Llama-3.1-8B-Instruct", "context_length": 131072,
+   "architecture": {"input_modalities": ["text"], "output_modalities": ["text"]},
+   "pricing": {"prompt": "0.00000002", "completion": "0.00000005"},
+   "top_provider": {"max_completion_tokens": 16384}}
+]}

@@ -1,0 +1,5 @@
+model,context_window,input_price_per_mtok,output_price_per_mtok,arena_elo,aa_intelligence_index,gpqa
+Claude Opus 5.5
+GPT-5
+Gemini 2.5 Pro
+Llama 3.1 8B Instruct
